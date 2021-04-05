@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.flex-container {
+  height: 100%;
+  display: flex;
+}
+
+.bg {
+  opacity: 0.32;
+  width: 800px;
+  height: 100%;
+}
+
+.logo {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 45% 50px 50% 50px;
+  position: absolute;
+  text-align: center;
+}
+
+.logo > img {
+  width: 500px;
+}
+
+.logo > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.003em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.box {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1366px;
+  height: 1024px;
+  /* border: solid; */
+}
+
+.left {
+  position: relative;
+  width: 800px;
+  /* border: solid; */
+  flex: 1;
+  background-color: rgba(43, 21, 107, 1);
+}
+
+.right {
+  width: 566px;
+  /* border: solid; */
+  flex: 2;
+  padding: 160px 80px 100px 80px;
+}
+
+button {
+  width: 100%;
+}
+
+.tx-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.003em;
+}
+
+.tx-2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.007em;
+  color: #aaaa;
+}
+
+.button-group,
+.line {
+  margin-top: 40px;
+  display: flex;
+}
+
+.b1 {
+  flex: 1;
+  width: 500px;
+}
+
+.b2 {
+  flex: 1;
+}
+
+.l1 {
+  flex: 5;
+}
+
+.l2 {
+  flex: 1;
+}
+
+.l3 {
+  flex: 5;
+}
+
+.btn-light {
+  width: 155px;
+  height: 50px;
+}
+
+.l2 > p {
+  padding-top: 8px;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.005em;
+}

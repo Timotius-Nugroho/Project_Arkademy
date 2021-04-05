@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.bt-a {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(95, 46, 234, 1) !important;
+  color: white !important;
+}
+
+nav {
+  height: 104px;
+}
+
+nav,
+section {
+  font-family: "Mulish", sans-serif;
+}
+
+p:nth-child(1) {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30.12px;
+  color: rgb(143, 126, 173);
+}
+
+p:nth-child(2) {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70.28px;
+  color: rgba(95, 46, 234, 1);
+}
+
+.text-small {
+  color: rgba(110, 113, 145, 1);
+  font-weight: 400;
+  size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: rgb(143, 126, 173) !important;
+}
+
+.card-body a {
+  width: 140px;
+  height: 33px;
+}
+
+h5 {
+  font-weight: bold !important;
+  font-size: 17px !important;
+  line-height: 22.5px !important;
+  letter-spacing: 0.15px;
+  color: black;
+}
+
+.under-l {
+  width: 100px;
+}
+
+hr.u {
+  border: 3px solid rgba(95, 46, 234, 1);
+  border-radius: 2px;
+}
+
+.B .row .col-2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.12px;
+  color: rgba(95, 46, 234, 1);
+}
+
+.B .row .col {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.08px;
+  color: rgba(95, 46, 234, 1);
+}
+
+.C button {
+  width: 127px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 17.57px;
+  font-weight: 700;
+  color: rgba(95, 46, 234, 1);
+}
+
+.C .row .col-3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.12px;
+}
+
+.C .row .col {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.08px;
+  color: rgba(95, 46, 234, 1);
+}
+
+.join {
+  width: 1155px;
+  height: 372px;
+  border-radius: 20px;
+}
+
+.eml-button {
+  width: 450px;
+}
+
+.E .row p {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(110, 113, 145, 1);
+}
+
+.E .row .bd {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+/* .E {
+  border: solid black;
+} */
+
+a {
+  text-decoration: none !important;
+  color: rgba(95, 46, 234, 1) !important;
+}
+
+.E a {
+  text-decoration: none !important;
+  color: rgba(110, 113, 145, 1) !important;
+}
+
+.la {
+  width: 105px;
+}
+
+.lb {
+  width: 160px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 14px !important;
+}

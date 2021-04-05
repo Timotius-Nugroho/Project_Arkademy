@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* div {
+  border: solid black;
+} */
+
+nav,
+section {
+  font-family: "Mulish", sans-serif;
+}
+
+nav {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.08px;
+  letter-spacing: 0.5%;
+}
+
+.dropdown-custom button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.08px;
+  letter-spacing: 0.5%;
+}
+
+body {
+  background-color: rgba(245, 246, 248, 1) !important;
+}
+
+.semi-bold {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.12px;
+  letter-spacing: 0.25px;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 30.12px;
+  letter-spacing: 0.25px;
+}
+
+.mini-gray {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: rgba(107, 107, 107, 1);
+}
+
+.mini-bold {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.total-payment {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+}
+
+.payment {
+  font-weight: 700;
+  color: rgba(95, 46, 234, 1);
+  font-size: 24px;
+  line-height: 30.12px;
+  letter-spacing: 0.25px;
+}
+
+.your-seat {
+  background-color: white;
+  height: 661px;
+  width: 100%;
+}
+
+.btn-custom-1 {
+  height: 100%;
+  width: 140px;
+  background-color: rgba(250, 252, 252, 0) !important;
+  color: rgba(95, 46, 234, 1) !important;
+  border: none !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.75px !important;
+  font-weight: 700 !important;
+}
+
+.btn-custom-3,
+.btn-custom-2 {
+  width: 35% !important;
+  height: 56px;
+}
+
+.btn-custom-2 {
+  color: rgba(95, 46, 234, 1) !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 28px !important;
+  letter-spacing: 0.75px !important;
+  border: solid rgba(95, 46, 234, 1) !important;
+}
+
+.btn-custom-3 {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 28px !important;
+  letter-spacing: 0.75px !important;
+  color: white !important;
+  background-color: rgba(95, 46, 234, 1) !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.card .card-body img {
+  width: 45%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  text-decoration: none !important;
+  color: rgba(110, 113, 145, 1) !important;
+}
+
+.title-footer {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20.08px;
+  letter-spacing: 0.5px;
+}
+
+.logo-footer-1 {
+  width: 45%;
+}
+
+section.B img {
+  margin-bottom: 20px;
+}
+
+section.B .container {
+  background-color: white !important;
+}
