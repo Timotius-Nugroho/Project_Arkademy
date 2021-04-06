@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
-div {
+/* div {
   border: solid black;
-}
+} */
 
 nav,
 section {
@@ -114,15 +114,24 @@ body {
   background-color: rgba(95, 46, 234, 1) !important;
 }
 
+@media (min-width: 769px) {
+  .disappear {
+    display: block !important;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .btn-custom-2 {
-    margin-left: 25%;
+    margin: 6%;
+    width: 90% !important;
   }
   .btn-custom-3 {
-    margin-left: 25%;
+    margin: 6%;
+    width: 90% !important;
   }
+
   .disappear {
-    display: none;
+    display: none !important;
   }
 }
 
