@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* div {
+  border: solid black;
+} */
+
+nav {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.08px;
+  letter-spacing: 0.5%;
+}
+
+.dropdown-custom button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.08px;
+  letter-spacing: 0.5%;
+}
+
+body {
+  background-color: rgba(245, 246, 248, 1) !important;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 30.12px;
+  letter-spacing: 0.25px;
+}
+
+.mini-gray {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.25px;
+  color: rgba(107, 107, 107, 1);
+}
+
+.mini-bold {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.25px;
+}
+
+.mini-bold-c {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.mini-gray-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: rgba(160, 163, 189, 1);
+}
+
+.box,
+.B .container {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn-outline-secondary {
+  height: 56px;
+  width: 85%;
+}
+
+.line {
+  width: 50%;
+}
+
+.btn-outline-primary {
+  border: solid rgba(95, 46, 234, 1);
+  color: rgba(95, 46, 234, 1);
+  height: 56px;
+  width: 75%;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(95, 46, 234, 1);
+  color: white;
+}
+
+.btn-primary {
+  height: 56px;
+  background-color: rgba(95, 46, 234, 1);
+  width: 75%;
+}
+
+.btn-warning {
+  background-color: rgba(244, 183, 64, 0.3);
+  border: none;
+}
+
+/* .box img {
+  width: 50px;
+} */
+
+.logo-footer-1 {
+  width: 45%;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  text-decoration: none !important;
+  color: rgba(110, 113, 145, 1) !important;
+}
+
+.title-footer {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20.08px;
+  letter-spacing: 0.5px;
+}
+
+section.B img {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 769px) {
+  .disappear {
+    display: block !important;
+  }
+  .not-disappear {
+    display: none !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+  .disappear {
+    display: none !important;
+  }
+  .not-disappear {
+    display: block !important;
+  }
+}
+}
