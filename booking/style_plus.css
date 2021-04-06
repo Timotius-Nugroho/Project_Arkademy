@@ -91,7 +91,7 @@ body {
 
 .btn-custom-3,
 .btn-custom-2 {
-  width: 50% !important;
+  width: 60% !important;
   height: 56px;
 }
 
@@ -105,7 +105,7 @@ body {
 }
 
 .btn-custom-3 {
-  margin-left: 50%;
+  margin-left: 39%;
   font-size: 16px !important;
   font-weight: 700 !important;
   line-height: 28px !important;

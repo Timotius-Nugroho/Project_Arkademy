@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/* div {
+  border: solid;
+} */
+
+body {
+  background-color: rgba(245, 246, 248, 1);
+}
+
 .bt-a {
   width: 120px;
   height: 40px;
@@ -7,27 +16,94 @@
   color: white !important;
 }
 
-nav {
-  height: 104px;
-}
-
 nav,
 section {
   font-family: "Mulish", sans-serif;
 }
 
-p:nth-child(1) {
+.B {
+  background-color: rgba(245, 246, 248, 1);
+}
+
+.title-gray {
   font-weight: 400;
   font-size: 24px;
   line-height: 30.12px;
   color: rgb(143, 126, 173);
 }
 
-p:nth-child(2) {
+.title-blue {
   font-weight: 700;
   font-size: 56px;
   line-height: 70.28px;
   color: rgba(95, 46, 234, 1);
+}
+
+.title-gray-d {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27.36px;
+  color: rgb(143, 126, 173);
+}
+
+.title-blue-d {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54.72px;
+  color: rgba(95, 46, 234, 1);
+}
+
+.line img {
+  height: 3px;
+  width: 30%;
+}
+
+.upcom-mov {
+  font-weight: bold;
+  color: black;
+}
+
+.now-show {
+  font-weight: bold;
+  color: rgba(95, 46, 234, 1);
+}
+
+.B a,
+.C a {
+  text-decoration: none !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  font-weight: bold !important;
+  letter-spacing: 0.15px !important;
+  color: rgba(95, 46, 234, 1);
+}
+
+.month button {
+  width: 120px;
+}
+
+.card a {
+  width: 100%;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: rgb(143, 126, 173) !important;
+}
+
+.join {
+  width: 100%;
+  height: 372px;
+  border-radius: 20px;
+}
+
+/* .D form {
+  width: 50%;
+} */
+.from-custom {
+  width: 50%;
 }
 
 .text-small {
@@ -38,125 +114,44 @@ p:nth-child(2) {
   letter-spacing: 0.75px;
 }
 
-.card-text {
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px !important;
-  line-height: 16px !important;
-  color: rgb(143, 126, 173) !important;
+.logo-footer-1 {
+  width: 45%;
 }
 
-.card-body a {
-  width: 140px;
-  height: 33px;
-}
-
-h5 {
-  font-weight: bold !important;
-  font-size: 17px !important;
-  line-height: 22.5px !important;
-  letter-spacing: 0.15px;
-  color: black;
-}
-
-.under-l {
-  width: 100px;
-}
-
-hr.u {
-  border: 3px solid rgba(95, 46, 234, 1);
-  border-radius: 2px;
-}
-
-.B .row .col-2 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30.12px;
-  color: rgba(95, 46, 234, 1);
-}
-
-.B .row .col {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20.08px;
-  color: rgba(95, 46, 234, 1);
-}
-
-.C button {
-  width: 127px;
-  height: 42px;
-  font-size: 14px;
-  line-height: 17.57px;
-  font-weight: 700;
-  color: rgba(95, 46, 234, 1);
-}
-
-.C .row .col-3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30.12px;
-}
-
-.C .row .col {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20.08px;
-  color: rgba(95, 46, 234, 1);
-}
-
-.join {
-  width: 100%;
-  height: 372px;
-  border-radius: 20px;
-}
-
-.eml-button {
-  width: 450px;
-}
-
-.E .row p {
+.footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: rgba(110, 113, 145, 1);
-}
-
-.E .row .bd {
-  font-weight: bold;
-  font-size: 16px;
-  color: black;
-}
-
-/* .E {
-  border: solid black;
-} */
-
-a {
-  text-decoration: none !important;
-  color: rgba(95, 46, 234, 1) !important;
-}
-
-.E a {
+  letter-spacing: 0.75px;
   text-decoration: none !important;
   color: rgba(110, 113, 145, 1) !important;
 }
 
-.la {
-  width: 105px;
+.title-footer {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20.08px;
+  letter-spacing: 0.5px;
 }
 
-.lb {
-  width: 160px;
+section.E img {
+  margin-bottom: 30px;
 }
 
-footer p {
-  font-weight: 400;
-  font-size: 14px !important;
+@media (min-width: 769px) {
+  .not-disappear {
+    display: none !important;
+  }
+  .disappear {
+    display: -ms-grid;
+  }
 }
 
-.btn-outline-primary:hover {
-  background-color: rgba(95, 46, 234, 1) !important;
-  color: white !important;
-}
-
-.btn-outline-primary {
-  border: solid rgba(95, 46, 234, 1) !important;
+@media (min-width: 0px) and (max-width: 767.98px) {
+  .disappear {
+    display: none !important;
+  }
+  .not-disappear {
+    display: -ms-grid !important;
+  }
 }
