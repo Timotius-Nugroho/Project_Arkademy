@@ -70,12 +70,13 @@ p.semi-card {
 
 .card-title {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
 }
 
 .card {
+  width: 100% !important;
   border: none !important;
 }
 
@@ -114,14 +115,14 @@ img.img-card {
   background-color: white !important;
 }
 
-.v-b a {
+/* .v-b a {
   font-weight: 600;
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.75px;
   text-decoration: none !important;
   color: rgba(95, 46, 234, 1) !important;
-}
+} */
 
 .C a {
   text-decoration: none !important;
@@ -130,3 +131,48 @@ img.img-card {
   line-height: 17.57px;
   letter-spacing: 0.5px;
 }
+
+@media (min-width: 769px) {
+  .btn-custom-2 {
+    margin-left: 50%;
+    width: 50% !important;
+  }
+  .btn-custom-3 {
+    margin-right: 50%;
+    width: 50% !important;
+  }
+  .v-b a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.75px;
+    text-decoration: none !important;
+    color: rgba(95, 46, 234, 1) !important;
+  }
+  .disappear {
+    display: -ms-inline-grid !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+  .btn-custom-2 {
+    margin-left: 5%;
+    width: 90% !important;
+  }
+  .btn-custom-3 {
+    margin-left: 5%;
+    width: 90% !important;
+  }
+
+  .v-b a {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 32px;
+    letter-spacing: 0.75px;
+    text-decoration: none !important;
+    color: rgba(95, 46, 234, 1) !important;
+  }
+
+  .disappear {
+    display: none !important;
+  }
